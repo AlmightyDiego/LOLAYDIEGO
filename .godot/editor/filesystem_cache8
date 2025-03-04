@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741050971
+::res://::1741052777
+export_presets.cfg::TextFile::-1::1741052063::0::1::::<><>::
 icon.svg::CompressedTexture2D::1839832430694643990::1741042040::1741042051::1::::<><>::
 Leyenda2.png::CompressedTexture2D::3580764111324630464::1741050970::1741050971::1::::<><>::
-::res://Assets/::1741051551
+::res://Assets/::1741051554
 bitmap.png::CompressedTexture2D::7749837306726828921::1741051096::1741051100::1::::<><>::
 BlockTileSet.png::CompressedTexture2D::203150627667591147::1741043796::1741043796::1::::<><>::
 Diego.png::CompressedTexture2D::1755060579191578476::1741049109::1741049191::1::::<><>::
@@ -42,12 +43,12 @@ Restart Button.png::CompressedTexture2D::704478298254256944::1741042874::1741042
 Restart ButtonPRESSED.png::CompressedTexture2D::3880011812183136859::1741042874::1741042874::1::::<><>::
 Salir ButonPRESSED.png::CompressedTexture2D::4109439774579700548::1741042874::1741042874::1::::<><>::
 Salir Button.png::CompressedTexture2D::6291094644223737127::1741042874::1741042874::1::::<><>::
-::res://Scenes/::1741051257
-Jugador.tscn::PackedScene::8428796735488613792::1741051257::0::1::::<><>::res://Scripts/character_body_2d.gd<>uid://d02pq3w5hciuq::::res://Assets/Slime.png<>uid://cxvngdvjhd77m::::res://Scenes/UI.tscn<>uid://bky20f4qubrf2::::res://Assets/NameTagLOLA.png
-Menu.tscn::PackedScene::1538203030256106987::1741051257::0::1::::<><>::uid://ofocy8y1oxpg::::res://Assets/Buttons/Jugar Button.png<>uid://b1u36v3xo7daj::::res://Assets/Buttons/Jugar ButtonPRESSED.png<>res://Scripts/jugar_button.gd<>uid://bn6d0jrwnsrql::::res://Assets/Buttons/Quit Button.png<>uid://rb2uguueegoi::::res://Assets/Buttons/Quit ButtonPRESSED.png<>res://Scripts/salir_button.gd
-Mundo.tscn::PackedScene::4224340023709162572::1741051257::0::1::::<><>::uid://c5n4jq6d0nkl::::res://Assets/BlockTileSet.png<>uid://dsc8byxq7ty0w::::res://Scenes/Jugador.tscn<>uid://0afudtkrlaae::::res://Assets/Diego.png<>uid://bmxlw12o7wgwq::::res://Assets/NameTagDIEGO.png<>uid://mchwqyog6bqy::::res://Assets/Leyenda.png<>uid://braswq8ye84u3::::res://Leyenda2.png<>uid://diocxnsc5cltx::::res://Assets/bitmap.png
+::res://Scenes/::1741051623
+Jugador.tscn::PackedScene::8428796735488613792::1741051622::0::1::::<><>::res://Scripts/character_body_2d.gd<>uid://d02pq3w5hciuq::::res://Assets/Slime.png<>uid://cxvngdvjhd77m::::res://Scenes/UI.tscn<>uid://bky20f4qubrf2::::res://Assets/NameTagLOLA.png
 LEYENDA.tscn::PackedScene::943470781201008784::1741050389::0::1::::<><>::res://Scripts/leyenda.gd
-UI.tscn::PackedScene::6431336929994967988::1741051257::0::1::::<><>::uid://b2ucycmvk26hr::::res://Assets/Buttons/Pause Button.png<>res://Scripts/ui.gd<>uid://csg2qai3v6kwa::::res://Assets/Buttons/Pause ButtonPRESSED.png<>uid://kbiwi1h6qmya::::res://Assets/Buttons/Restart Button.png<>uid://bvjrh0glnsdpr::::res://Assets/Buttons/Restart ButtonPRESSED.png<>res://Scripts/restart_button.gd<>uid://dalwr0001v07d::::res://Assets/Buttons/Continuar Button.png<>uid://3u6byk2useug::::res://Assets/Buttons/Continuar ButtonPRESSED.png<>uid://cvvpn6s47pwbv::::res://Assets/Buttons/Salir Button.png<>uid://bysv4w3h7jo8c::::res://Assets/Buttons/Salir ButonPRESSED.png<>uid://dceunlduwndnu::::res://Assets/Buttons/MOBILE Left Button.png<>uid://b80p22mbhv8tl::::res://Assets/Buttons/MOBILE Right Button.png<>uid://d0mnb2brd0pof::::res://Assets/Buttons/MOBILE Left ButtonPRESSED.png<>uid://dg2xoug4xf3a::::res://Assets/Buttons/MOBILE Jump Button.png<>uid://5um13o6ds5w1::::res://Assets/Buttons/MOBILE Right ButtonPRESSED.png<>uid://d4k3a48qen0wb::::res://Assets/Buttons/MOBILE Jump ButtonPRESSED.png
+Menu.tscn::PackedScene::1538203030256106987::1741051622::0::1::::<><>::uid://ofocy8y1oxpg::::res://Assets/Buttons/Jugar Button.png<>uid://b1u36v3xo7daj::::res://Assets/Buttons/Jugar ButtonPRESSED.png<>res://Scripts/jugar_button.gd<>uid://bn6d0jrwnsrql::::res://Assets/Buttons/Quit Button.png<>uid://rb2uguueegoi::::res://Assets/Buttons/Quit ButtonPRESSED.png<>res://Scripts/salir_button.gd
+Mundo.tscn::PackedScene::4224340023709162572::1741051623::0::1::::<><>::uid://c5n4jq6d0nkl::::res://Assets/BlockTileSet.png<>uid://dsc8byxq7ty0w::::res://Scenes/Jugador.tscn<>uid://0afudtkrlaae::::res://Assets/Diego.png<>uid://bmxlw12o7wgwq::::res://Assets/NameTagDIEGO.png<>uid://mchwqyog6bqy::::res://Assets/Leyenda.png<>uid://braswq8ye84u3::::res://Leyenda2.png<>uid://diocxnsc5cltx::::res://Assets/bitmap.png<>uid://dn1svhfr7a32m::::res://Assets/LEYENDAFINAL.png
+UI.tscn::PackedScene::6431336929994967988::1741051622::0::1::::<><>::uid://b2ucycmvk26hr::::res://Assets/Buttons/Pause Button.png<>res://Scripts/ui.gd<>uid://csg2qai3v6kwa::::res://Assets/Buttons/Pause ButtonPRESSED.png<>uid://kbiwi1h6qmya::::res://Assets/Buttons/Restart Button.png<>uid://bvjrh0glnsdpr::::res://Assets/Buttons/Restart ButtonPRESSED.png<>res://Scripts/restart_button.gd<>uid://dalwr0001v07d::::res://Assets/Buttons/Continuar Button.png<>uid://3u6byk2useug::::res://Assets/Buttons/Continuar ButtonPRESSED.png<>uid://cvvpn6s47pwbv::::res://Assets/Buttons/Salir Button.png<>uid://bysv4w3h7jo8c::::res://Assets/Buttons/Salir ButonPRESSED.png<>uid://dceunlduwndnu::::res://Assets/Buttons/MOBILE Left Button.png<>uid://b80p22mbhv8tl::::res://Assets/Buttons/MOBILE Right Button.png<>uid://d0mnb2brd0pof::::res://Assets/Buttons/MOBILE Left ButtonPRESSED.png<>uid://dg2xoug4xf3a::::res://Assets/Buttons/MOBILE Jump Button.png<>uid://5um13o6ds5w1::::res://Assets/Buttons/MOBILE Right ButtonPRESSED.png<>uid://d4k3a48qen0wb::::res://Assets/Buttons/MOBILE Jump ButtonPRESSED.png
 ::res://Scripts/::1741050549
 character_body_2d.gd::GDScript::-1::1741042801::0::1::::<>CharacterBody2D<>::
 jugar_button.gd::GDScript::-1::1741046132::0::1::::<>TextureButton<>::
