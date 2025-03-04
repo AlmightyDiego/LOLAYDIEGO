@@ -1,0 +1,147 @@
+[gd_scene load_steps=17 format=3 uid="uid://cxvngdvjhd77m"]
+
+[ext_resource type="Texture2D" uid="uid://b2ucycmvk26hr" path="res://Assets/Buttons/Pause Button.png" id="1_dga2s"]
+[ext_resource type="Script" path="res://Scripts/ui.gd" id="1_ed4lt"]
+[ext_resource type="Texture2D" uid="uid://csg2qai3v6kwa" path="res://Assets/Buttons/Pause ButtonPRESSED.png" id="2_3yswt"]
+[ext_resource type="Texture2D" uid="uid://kbiwi1h6qmya" path="res://Assets/Buttons/Restart Button.png" id="3_23o5n"]
+[ext_resource type="Texture2D" uid="uid://bvjrh0glnsdpr" path="res://Assets/Buttons/Restart ButtonPRESSED.png" id="4_61j4x"]
+[ext_resource type="Script" path="res://Scripts/restart_button.gd" id="5_83rbm"]
+[ext_resource type="Texture2D" uid="uid://dalwr0001v07d" path="res://Assets/Buttons/Continuar Button.png" id="6_n5ksn"]
+[ext_resource type="Texture2D" uid="uid://3u6byk2useug" path="res://Assets/Buttons/Continuar ButtonPRESSED.png" id="7_xtpi8"]
+[ext_resource type="Texture2D" uid="uid://cvvpn6s47pwbv" path="res://Assets/Buttons/Salir Button.png" id="8_kxwft"]
+[ext_resource type="Texture2D" uid="uid://bysv4w3h7jo8c" path="res://Assets/Buttons/Salir ButonPRESSED.png" id="9_kpif0"]
+[ext_resource type="Texture2D" uid="uid://dceunlduwndnu" path="res://Assets/Buttons/MOBILE Left Button.png" id="11_1q4be"]
+[ext_resource type="Texture2D" uid="uid://b80p22mbhv8tl" path="res://Assets/Buttons/MOBILE Right Button.png" id="12_dv112"]
+[ext_resource type="Texture2D" uid="uid://d0mnb2brd0pof" path="res://Assets/Buttons/MOBILE Left ButtonPRESSED.png" id="12_ju3uk"]
+[ext_resource type="Texture2D" uid="uid://dg2xoug4xf3a" path="res://Assets/Buttons/MOBILE Jump Button.png" id="13_lxjq3"]
+[ext_resource type="Texture2D" uid="uid://5um13o6ds5w1" path="res://Assets/Buttons/MOBILE Right ButtonPRESSED.png" id="14_x2dlw"]
+[ext_resource type="Texture2D" uid="uid://d4k3a48qen0wb" path="res://Assets/Buttons/MOBILE Jump ButtonPRESSED.png" id="16_v8276"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_ed4lt")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="PAUSEBACKGROUND" type="ColorRect" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.356771
+anchor_top = 0.259259
+anchor_right = 0.62934
+anchor_bottom = 0.621914
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.129412)
+metadata/_edit_use_anchors_ = true
+
+[node name="Pause Button" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0138889
+anchor_top = 0.0246914
+anchor_right = 0.0972222
+anchor_bottom = 0.17284
+texture_normal = ExtResource("1_dga2s")
+texture_pressed = ExtResource("2_3yswt")
+ignore_texture_size = true
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Restart Button" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.111111
+anchor_top = 0.0246914
+anchor_right = 0.194444
+anchor_bottom = 0.17284
+texture_normal = ExtResource("3_23o5n")
+texture_pressed = ExtResource("4_61j4x")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_83rbm")
+metadata/_edit_use_anchors_ = true
+
+[node name="Continuar Button" type="TextureButton" parent="Control"]
+process_mode = 3
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.37066
+anchor_top = 0.282407
+anchor_right = 0.615451
+anchor_bottom = 0.425926
+texture_normal = ExtResource("6_n5ksn")
+texture_pressed = ExtResource("7_xtpi8")
+ignore_texture_size = true
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Salir Button" type="TextureButton" parent="Control"]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.371528
+anchor_top = 0.455247
+anchor_right = 0.616319
+anchor_bottom = 0.598765
+texture_normal = ExtResource("8_kxwft")
+texture_pressed = ExtResource("9_kpif0")
+ignore_texture_size = true
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="MOB Left Button" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0173611
+anchor_top = 0.78858
+anchor_right = 0.118924
+anchor_bottom = 0.969136
+offset_bottom = -3.05176e-05
+texture_normal = ExtResource("11_1q4be")
+texture_pressed = ExtResource("12_ju3uk")
+ignore_texture_size = true
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="MOB Right Button" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.136285
+anchor_top = 0.78858
+anchor_right = 0.237847
+anchor_bottom = 0.969136
+offset_bottom = -3.05176e-05
+texture_normal = ExtResource("12_dv112")
+texture_pressed = ExtResource("14_x2dlw")
+ignore_texture_size = true
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="MOB Jump Button" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.871528
+anchor_top = 0.771605
+anchor_right = 0.982639
+anchor_bottom = 0.969136
+offset_bottom = -3.05176e-05
+texture_normal = ExtResource("13_lxjq3")
+texture_pressed = ExtResource("16_v8276")
+ignore_texture_size = true
+stretch_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Control/Pause Button" to="." method="_on_pause_button_pressed"]
+[connection signal="pressed" from="Control/Restart Button" to="Control/Restart Button" method="_on_pressed"]
+[connection signal="pressed" from="Control/Continuar Button" to="." method="_on_continuar_button_pressed"]
+[connection signal="pressed" from="Control/Salir Button" to="." method="_on_salir_button_pressed"]

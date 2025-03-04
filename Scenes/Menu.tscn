@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://v6d8j6pr2mqt"]
+
+[ext_resource type="Texture2D" uid="uid://ofocy8y1oxpg" path="res://Assets/Buttons/Jugar Button.png" id="1_4h1lm"]
+[ext_resource type="Texture2D" uid="uid://b1u36v3xo7daj" path="res://Assets/Buttons/Jugar ButtonPRESSED.png" id="2_77823"]
+[ext_resource type="Script" path="res://Scripts/jugar_button.gd" id="3_1ntyv"]
+[ext_resource type="Texture2D" uid="uid://bn6d0jrwnsrql" path="res://Assets/Buttons/Quit Button.png" id="3_keb3o"]
+[ext_resource type="Texture2D" uid="uid://rb2uguueegoi" path="res://Assets/Buttons/Quit ButtonPRESSED.png" id="4_xxvif"]
+[ext_resource type="Script" path="res://Scripts/salir_button.gd" id="5_ibrib"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Jugar Button" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0138889
+anchor_top = 0.760803
+anchor_right = 0.376736
+anchor_bottom = 0.975309
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("1_4h1lm")
+texture_pressed = ExtResource("2_77823")
+ignore_texture_size = true
+stretch_mode = 4
+script = ExtResource("3_1ntyv")
+metadata/_edit_use_anchors_ = true
+
+[node name="Salir Button" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.865451
+anchor_top = 0.760803
+anchor_right = 0.986111
+anchor_bottom = 0.975309
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("3_keb3o")
+texture_pressed = ExtResource("4_xxvif")
+ignore_texture_size = true
+stretch_mode = 4
+script = ExtResource("5_ibrib")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Jugar Button" to="Jugar Button" method="_on_pressed"]
+[connection signal="pressed" from="Salir Button" to="Salir Button" method="_on_pressed"]

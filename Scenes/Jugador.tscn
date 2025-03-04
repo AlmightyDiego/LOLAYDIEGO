@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://dsc8byxq7ty0w"]
+
+[ext_resource type="Script" path="res://Scripts/character_body_2d.gd" id="1_twwlx"]
+[ext_resource type="Texture2D" uid="uid://d02pq3w5hciuq" path="res://Assets/Slime.png" id="1_vl6sp"]
+[ext_resource type="PackedScene" uid="uid://cxvngdvjhd77m" path="res://Scenes/UI.tscn" id="3_8i6qf"]
+[ext_resource type="Texture2D" uid="uid://bky20f4qubrf2" path="res://Assets/NameTagLOLA.png" id="4_m0yox"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3blaf"]
+size = Vector2(16, 16)
+
+[node name="Jugador" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_twwlx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_3blaf")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+position_smoothing_speed = 5.5
+
+[node name="Slime" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_vl6sp")
+
+[node name="CanvasLayer" parent="CharacterBody2D" instance=ExtResource("3_8i6qf")]
+
+[node name="LOLA" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(0, -14)
+texture = ExtResource("4_m0yox")
